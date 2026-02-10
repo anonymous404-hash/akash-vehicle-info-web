@@ -61,7 +61,7 @@ export default function Home() {
             <code style={{ color: '#00d4ff' }}>
               {rc && key
                 ? apiUrl
-                : 'https://akash-vehicle-info-api.vercel.app/?rc=AS01BB1209&key=YOURKEY'}
+                : 'https://akash-vehicle-info-api.vercel.app/api/vehicle?rc=AS01BB1209&key=YOURKEY'}
             </code>
           </p>
         </div>
