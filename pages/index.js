@@ -14,7 +14,7 @@ export default function Home() {
   };
 
   // 🔗 YOUR LIVE VEHICLE API
-  const apiUrl = `https://akash-vehicle-info-api.vercel.app/api/vehicle?rc=${rc}&key=${key}`;
+  const apiUrl = `https://akash-vehicle-info-api.vercel.app/?rc=${rc}&key=${key}`;
 
   return (
     <div style={page}>
